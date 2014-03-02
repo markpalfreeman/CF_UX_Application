@@ -1,0 +1,205 @@
+/* 
+MARK PALFREEMAN
+CODE FELLOWS 
+UX BOOTCAMP APPLICATION
+*/
+
+/* PAGE STYLES */
+body {
+   font-family: 'Droid Serif', serif;
+   line-height: 1.6em;
+   color: #444;
+   max-width: 900px;
+   margin: 0 auto;   
+   padding: 0 20px;
+}
+
+h1 {
+   font-family: 'Oswald', sans-serif;
+   font-weight: 700;
+   font-size: 2.5rem;
+   line-height: 2.5rem;
+   color: #111;
+}
+
+.meta {
+   font-family: 'Abel', sans-serif;
+   font-size: 0.9rem;
+   color: #888;
+   text-transform: uppercase;
+   margin-top: -29px;
+   margin-bottom: 25px;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:visited {
+   text-decoration: none;
+   color: inherit;
+}
+/**/
+
+
+/* HEADER STYLES */
+.header {
+   display: block;
+   max-width: 900px;
+   margin: 34px 0 auto;
+}
+
+.social-icons {
+   display: inline;
+   float: right;
+   margin: 0 auto;
+   padding-top: 12px;
+}
+
+.social-icons li {
+   display: inline-block;
+   list-style: none;
+   float: left;
+   margin-left: 2px;
+}
+
+.social-icons li:nth-child(7) {
+   margin-left: 10px;
+}
+
+.decor {
+   width: 100%;
+   padding-top: 18px;
+   padding-bottom: 15px;
+}
+/**/
+
+
+/* ARTICLE STYLES */
+.meta p {
+   display: inline;
+}
+
+#print {
+   float: right;
+   display: inline;
+   margin: 0 auto;
+   padding: 0;
+}
+
+#print::before {
+   margin: 0 3px;
+   content: url('img/printer.png');
+}
+
+article {
+   padding-bottom: 10px;
+}
+
+article p {
+   text-indent: 32px;
+   padding-top: 8px;
+   padding-bottom: 3px;
+}
+
+.recipe {
+   background: url('img/paper.png') no-repeat left top;
+   width: 100%;
+   margin-bottom: -10px;   
+}
+
+.ingredients {
+   padding: 40px 0 40px 50px;  
+   font-family: 'Gochi Hand', cursive;
+   font-size: 1.2rem;
+   line-height: 1.65;
+}
+
+.ingredients li {
+   display: inline-block; 
+   list-style: none;
+   width: 400px;
+   cursor: pointer;
+}
+
+.ingredients li::before {
+   margin: 0 10px;
+   content: url('img/box-unchecked.png');
+}
+
+.checked {
+   text-decoration: line-through;
+}
+
+.ingredients li.checked::before {
+   margin: 0 10px;
+   content: url('img/box-checked.png');
+}
+
+.author {
+   float: left;  
+   width: 75%;
+   margin-right: 5%;
+   margin-bottom: 80px;
+}
+
+.avatar {
+   float: left;
+   border-radius: 100%;  
+   width: 70px;
+   height: 70px;
+   margin-right: 20px;
+}
+
+.author-name {
+   font-size: 1.25rem;
+}
+
+.author-bio {
+   margin: 7px 0;
+}
+
+#share-recipe {
+   display: inline-block;
+   float: right;
+   width: 20%;
+   height: 55px;
+   background-color: #bb7056;
+   font-family: 'Abel';
+   font-size: 1.25rem;
+   color: white;
+   line-height: 3.5rem;
+   text-transform: uppercase;      
+   text-align: center;
+   margin-top: 10px;
+}
+/**/
+
+
+/* FOOTER STYLES */
+.footer {
+   clear: both; 
+   border-top: 1px solid #eee;
+   text-align: center;
+   padding: 35px 0 60px 0;
+   font-size: 0.85rem;
+   line-height: 1.4rem;
+   color: #bbb;
+}
+
+#logo-small {
+   margin: -55px 0 0 -22px;
+   position: absolute;
+   width: 45px;
+   height: 45px;
+   text-align: center;
+   background-color: #fff;
+}
+
+#logo-small img {
+   margin-top: 5px;
+   width: 30px; 
+   height: 30px;
+   opacity: 0.5;
+}
+/**/
